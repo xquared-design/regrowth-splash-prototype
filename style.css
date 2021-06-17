@@ -39,6 +39,23 @@ body{
     animation-timing-function: ease-out;
 }
 
+#nmg-logo{
+
+   position: absolute; 
+  bottom: 5vw;
+  left: 5vw;
+
+
+}
+
+#cnw-logo{
+
+   position: absolute; 
+  bottom: 5vw;
+  right: 5vw;
+
+
+}
 
 #left{
 
