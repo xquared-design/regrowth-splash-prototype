@@ -35,25 +35,24 @@ body{
     animation-fill-mode: forwards;
     animation-timing-function: ease-out;
 }
+
+
 .left{
-  z-index: 9;
-  position: fixed;
-  width=75vw
-  height=100vh
-  bottom:0;
-    left: 0;
-  background-color: #71B2C9;
+  
+  border-bottom: 20px solid #71B2C9;
   transform: rotate(45degrees)
 }
 .right{
-  z-index: 9;
-  position: fixed;
+
+ 
+    position: absolute;
   right: 0;
   bottom: 0;
-  width=50vw
-  height=100vh
-  background-color: #E5B53B;
-  transform: rotate(315degrees)
+  height: 100%;
+  width: 100%;
+  background: #E5B53B;
+  -webkit-clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+  clip-path: polygon(100% 0, 0% 100%, 100% 100%);
 }
 
 @keyframes open{
