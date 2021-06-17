@@ -9,6 +9,7 @@ body{
 }
 
 .splash1{
+  z-index: 8;
     position: fixed;
     overflow:hidden;
     top: 0;
@@ -96,6 +97,9 @@ body{
 
 
 .splash2{
+  z-index: 7;
+  position: fixed;
+    overflow:hidden;
     height: 100vh;
     width: 100vw;
     background-color: #54585A;
@@ -104,10 +108,13 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    animation-name: open;
+   animation-name: open;
     animation-duration: 2s;
-    animation-delay: 10s;
-    animation-fill-mode: forwards;
+    animation-delay: 5.5s;
+    animation-fill-mode: reverse;
+    animation-timing-function: ease-out;
+    
+
 }
 .splash2 h1{
     font-size: 32px;
@@ -116,12 +123,13 @@ body{
     padding: 0;
     animation-name: fadeIn;
     animation-duration: 1s;
-    animation-delay: 7.2s;
+    animation-delay: 4s;
     animation-fill-mode: forwards;
     animation-timing-function: linear;
 }
 
 .splash3{
+  
     height: 100vh;
     width: 100vw;
     background-color: #71B2C9;
@@ -143,4 +151,4 @@ body{
     }
 }
 
-@keygg
+@keygframe
