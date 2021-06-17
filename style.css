@@ -146,16 +146,25 @@ body{
     width: 100vw;
     background-color: #71B2C9;
     background-blend-mode: overlay;
-    display: fixed;
+    display: flex;
     align-items: center;
     justify-content: center; 
+
+  
  
 }
 
 .splash3 p{
-  border
+
+    display: flex;
   font-family: 'Kalam', cursive;
-  color: white;
+  color: transparent;
+  left: 5vw;
+  animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-delay: 6s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
 }
 
 @keyframes fadeIn{
