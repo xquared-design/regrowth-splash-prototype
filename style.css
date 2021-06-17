@@ -5,6 +5,7 @@ body{
     padding: 0;
     margin: 0;
     font-family: 'Open Sans', sans-serif;
+  overflow:hidden;
 }
 
 .splash1{
@@ -37,22 +38,32 @@ body{
 }
 
 
-.left{
-  
-  border-bottom: 20px solid #71B2C9;
-  transform: rotate(45degrees)
-}
-.right{
+#left{
+   z-index: 9;
+          width: 75vw;
+        height: 75vw;
+        background-color: #71B2C9;
+        border-bottom: 1px solid 
+        -webkit-transform:
+            translateY(20px)
+            translateX(-5px)
+            rotate(45deg); 
+        position: absolute; 
 
- 
-    position: absolute;
-  right: 0;
-  bottom: 0;
-  height: 100%;
-  width: 100%;
-  background: #E5B53B;
-  -webkit-clip-path: polygon(100% 0, 0% 100%, 100% 100%);
-  clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+}
+#right{
+
+  z-index: 9;
+         width: 50vw;
+        height: 50vw;
+        border-bottom: 10px solid cyan;
+        -webkit-transform:
+            translateY(20px)
+            translateX(5px)
+            rotate(-26deg);
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
 }
 
 @keyframes open{
